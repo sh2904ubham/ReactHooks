@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Counter() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(5);
 
   return (
     <div className="p-4 border rounded-lg shadow-md w-64">
