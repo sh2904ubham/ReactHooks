@@ -14,7 +14,7 @@ function Timer() {
   return (
     <div className="p-4 border rounded-lg shadow-md w-64">
       <h2 className="text-lg font-bold">Timer</h2>
-      <p className="text-xl">{seconds} sec</p>
+      <p className="text-xl">{seconds} second</p>
     </div>
   );
 }
