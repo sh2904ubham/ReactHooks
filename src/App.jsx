@@ -10,7 +10,7 @@ import ClickTracker from "./components/ClickTracker";
 function App() {
   return (
     <ThemeProvider>
-      <div className="flex flex-col items-center gap-4 p-6">
+      <div className="flex flex-col items-center gap-5 p-6">
         <h1 className="text-3xl font-bold underline">React Hooks Demo</h1>
         <Counter />
         <ClickTracker />
